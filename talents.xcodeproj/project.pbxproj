@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		21BDA58749D871C9382BE657 /* libPods-talents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C86FDA36D6BDDB16C5E886 /* libPods-talents.a */; };
 		DA26BB5A226D5C3700A971FD /* RCAgainPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB59226D5C3700A971FD /* RCAgainPassWordController.m */; };
+		DA26BB5D226D9A7E00A971FD /* UIButton+middleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB5C226D9A7E00A971FD /* UIButton+middleButton.m */; };
+		DA26BB61226DAA4100A971FD /* XYBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA26BB5E226DAA4100A971FD /* XYBannerView.xib */; };
+		DA26BB62226DAA4100A971FD /* XYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB60226DAA4100A971FD /* XYBannerView.m */; };
+		DA26BB65226DBB0600A971FD /* RCTodayMatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB64226DBB0600A971FD /* RCTodayMatchController.m */; };
+		DA26BB68226DBB2700A971FD /* RCIntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB67226DBB2700A971FD /* RCIntroduceController.m */; };
 		DA2DD43A2269FB2800ED7BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4392269FB2800ED7BE6 /* AppDelegate.m */; };
 		DA2DD4402269FB2900ED7BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2DD43E2269FB2900ED7BE6 /* Main.storyboard */; };
 		DA2DD4432269FB2900ED7BE6 /* talents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4412269FB2900ED7BE6 /* talents.xcdatamodeld */; };
@@ -59,6 +64,15 @@
 		D7C86FDA36D6BDDB16C5E886 /* libPods-talents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-talents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA26BB58226D5C3700A971FD /* RCAgainPassWordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAgainPassWordController.h; sourceTree = "<group>"; };
 		DA26BB59226D5C3700A971FD /* RCAgainPassWordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAgainPassWordController.m; sourceTree = "<group>"; };
+		DA26BB5B226D9A7E00A971FD /* UIButton+middleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+middleButton.h"; sourceTree = "<group>"; };
+		DA26BB5C226D9A7E00A971FD /* UIButton+middleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+middleButton.m"; sourceTree = "<group>"; };
+		DA26BB5E226DAA4100A971FD /* XYBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYBannerView.xib; sourceTree = "<group>"; };
+		DA26BB5F226DAA4100A971FD /* XYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBannerView.h; sourceTree = "<group>"; };
+		DA26BB60226DAA4100A971FD /* XYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBannerView.m; sourceTree = "<group>"; };
+		DA26BB63226DBB0600A971FD /* RCTodayMatchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTodayMatchController.h; sourceTree = "<group>"; };
+		DA26BB64226DBB0600A971FD /* RCTodayMatchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTodayMatchController.m; sourceTree = "<group>"; };
+		DA26BB66226DBB2700A971FD /* RCIntroduceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIntroduceController.h; sourceTree = "<group>"; };
+		DA26BB67226DBB2700A971FD /* RCIntroduceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIntroduceController.m; sourceTree = "<group>"; };
 		DA2DD4352269FB2800ED7BE6 /* talents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2DD4382269FB2800ED7BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA2DD4392269FB2800ED7BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -221,6 +235,9 @@
 		DA2DD46D2269FBA000ED7BE6 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				DA26BB5F226DAA4100A971FD /* XYBannerView.h */,
+				DA26BB60226DAA4100A971FD /* XYBannerView.m */,
+				DA26BB5E226DAA4100A971FD /* XYBannerView.xib */,
 				DA2DD46E2269FBA000ED7BE6 /* XXPageTab */,
 			);
 			path = lib;
@@ -244,6 +261,8 @@
 				DA2DD4752269FBA000ED7BE6 /* UIColor+LX.m */,
 				DA2DD4762269FBA000ED7BE6 /* UIImage+LX.m */,
 				DA2DD4772269FBA000ED7BE6 /* UIColor+LX.h */,
+				DA26BB5B226D9A7E00A971FD /* UIButton+middleButton.h */,
+				DA26BB5C226D9A7E00A971FD /* UIButton+middleButton.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -417,6 +436,10 @@
 			children = (
 				DA2DD4A12269FBA000ED7BE6 /* RCMainController.h */,
 				DA2DD4A22269FBA000ED7BE6 /* RCMainController.m */,
+				DA26BB63226DBB0600A971FD /* RCTodayMatchController.h */,
+				DA26BB64226DBB0600A971FD /* RCTodayMatchController.m */,
+				DA26BB66226DBB2700A971FD /* RCIntroduceController.h */,
+				DA26BB67226DBB2700A971FD /* RCIntroduceController.m */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -537,6 +560,7 @@
 				DA2DD4482269FB2B00ED7BE6 /* LaunchScreen.storyboard in Resources */,
 				DA2DD4452269FB2B00ED7BE6 /* Assets.xcassets in Resources */,
 				DA2DD4402269FB2900ED7BE6 /* Main.storyboard in Resources */,
+				DA26BB61226DAA4100A971FD /* XYBannerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +613,7 @@
 				DA2DD4A92269FBA000ED7BE6 /* UIImage+LX.m in Sources */,
 				DA26BB5A226D5C3700A971FD /* RCAgainPassWordController.m in Sources */,
 				DA2DD43A2269FB2800ED7BE6 /* AppDelegate.m in Sources */,
+				DA26BB68226DBB2700A971FD /* RCIntroduceController.m in Sources */,
 				DA2DD44B2269FB2B00ED7BE6 /* main.m in Sources */,
 				DA2DD4AA2269FBA000ED7BE6 /* RCInformationController.m in Sources */,
 				DA2DD4B62269FBA000ED7BE6 /* RCTabController.m in Sources */,
@@ -598,14 +623,17 @@
 				DA2DD4B52269FBA000ED7BE6 /* RCMainController.m in Sources */,
 				DA2DD4B12269FBA000ED7BE6 /* RCResetPasswController.m in Sources */,
 				DA2DD4A62269FBA000ED7BE6 /* XXPageTabItemLable.m in Sources */,
+				DA26BB62226DAA4100A971FD /* XYBannerView.m in Sources */,
 				DA2DD4432269FB2900ED7BE6 /* talents.xcdatamodeld in Sources */,
 				DA2DD4AC2269FBA000ED7BE6 /* RCFoundController.m in Sources */,
 				DA2DD4B22269FBA000ED7BE6 /* RCPassLoginController.m in Sources */,
 				DA2DD4AE2269FBA000ED7BE6 /* RCMyController.m in Sources */,
 				DA2DD4AF2269FBA000ED7BE6 /* RCLoginController.m in Sources */,
+				DA26BB65226DBB0600A971FD /* RCTodayMatchController.m in Sources */,
 				DA2DD4B02269FBA000ED7BE6 /* RCBoundIphoneController.m in Sources */,
 				DA2DD4B42269FBA000ED7BE6 /* RCRegisterController.m in Sources */,
 				DA2DD4B32269FBA000ED7BE6 /* RCChangePassController.m in Sources */,
+				DA26BB5D226D9A7E00A971FD /* UIButton+middleButton.m in Sources */,
 				DA2DD4AD2269FBA000ED7BE6 /* RCMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
