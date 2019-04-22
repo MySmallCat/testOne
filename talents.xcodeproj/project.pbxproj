@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21BDA58749D871C9382BE657 /* libPods-talents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C86FDA36D6BDDB16C5E886 /* libPods-talents.a */; };
+		DA26BB5A226D5C3700A971FD /* RCAgainPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA26BB59226D5C3700A971FD /* RCAgainPassWordController.m */; };
 		DA2DD43A2269FB2800ED7BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4392269FB2800ED7BE6 /* AppDelegate.m */; };
-		DA2DD43D2269FB2900ED7BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD43C2269FB2900ED7BE6 /* ViewController.m */; };
 		DA2DD4402269FB2900ED7BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2DD43E2269FB2900ED7BE6 /* Main.storyboard */; };
 		DA2DD4432269FB2900ED7BE6 /* talents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4412269FB2900ED7BE6 /* talents.xcdatamodeld */; };
 		DA2DD4452269FB2B00ED7BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2DD4442269FB2B00ED7BE6 /* Assets.xcassets */; };
@@ -16,6 +17,23 @@
 		DA2DD44B2269FB2B00ED7BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD44A2269FB2B00ED7BE6 /* main.m */; };
 		DA2DD4552269FB2B00ED7BE6 /* talentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4542269FB2B00ED7BE6 /* talentsTests.m */; };
 		DA2DD4602269FB2B00ED7BE6 /* talentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD45F2269FB2B00ED7BE6 /* talentsUITests.m */; };
+		DA2DD4A62269FBA000ED7BE6 /* XXPageTabItemLable.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD46F2269FBA000ED7BE6 /* XXPageTabItemLable.m */; };
+		DA2DD4A72269FBA000ED7BE6 /* XXPageTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4702269FBA000ED7BE6 /* XXPageTabView.m */; };
+		DA2DD4A82269FBA000ED7BE6 /* UIColor+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4752269FBA000ED7BE6 /* UIColor+LX.m */; };
+		DA2DD4A92269FBA000ED7BE6 /* UIImage+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4762269FBA000ED7BE6 /* UIImage+LX.m */; };
+		DA2DD4AA2269FBA000ED7BE6 /* RCInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD47C2269FBA000ED7BE6 /* RCInformationController.m */; };
+		DA2DD4AB2269FBA000ED7BE6 /* RCCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD47D2269FBA000ED7BE6 /* RCCourseController.m */; };
+		DA2DD4AC2269FBA000ED7BE6 /* RCFoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4812269FBA000ED7BE6 /* RCFoundController.m */; };
+		DA2DD4AD2269FBA000ED7BE6 /* RCMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4862269FBA000ED7BE6 /* RCMessageController.m */; };
+		DA2DD4AE2269FBA000ED7BE6 /* RCMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD48C2269FBA000ED7BE6 /* RCMyController.m */; };
+		DA2DD4AF2269FBA000ED7BE6 /* RCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4912269FBA000ED7BE6 /* RCLoginController.m */; };
+		DA2DD4B02269FBA000ED7BE6 /* RCBoundIphoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4962269FBA000ED7BE6 /* RCBoundIphoneController.m */; };
+		DA2DD4B12269FBA000ED7BE6 /* RCResetPasswController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4972269FBA000ED7BE6 /* RCResetPasswController.m */; };
+		DA2DD4B22269FBA000ED7BE6 /* RCPassLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4982269FBA000ED7BE6 /* RCPassLoginController.m */; };
+		DA2DD4B32269FBA000ED7BE6 /* RCChangePassController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD49A2269FBA000ED7BE6 /* RCChangePassController.m */; };
+		DA2DD4B42269FBA000ED7BE6 /* RCRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD49C2269FBA000ED7BE6 /* RCRegisterController.m */; };
+		DA2DD4B52269FBA000ED7BE6 /* RCMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4A22269FBA000ED7BE6 /* RCMainController.m */; };
+		DA2DD4B62269FBA000ED7BE6 /* RCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DD4A52269FBA000ED7BE6 /* RCTabController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E03FE856448ABE98A7B17C9 /* Pods-talents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talents.debug.xcconfig"; path = "Target Support Files/Pods-talents/Pods-talents.debug.xcconfig"; sourceTree = "<group>"; };
+		725A46F21045D0EAD7AD345A /* Pods-talents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talents.release.xcconfig"; path = "Target Support Files/Pods-talents/Pods-talents.release.xcconfig"; sourceTree = "<group>"; };
+		D7C86FDA36D6BDDB16C5E886 /* libPods-talents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-talents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA26BB58226D5C3700A971FD /* RCAgainPassWordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAgainPassWordController.h; sourceTree = "<group>"; };
+		DA26BB59226D5C3700A971FD /* RCAgainPassWordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAgainPassWordController.m; sourceTree = "<group>"; };
 		DA2DD4352269FB2800ED7BE6 /* talents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2DD4382269FB2800ED7BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA2DD4392269FB2800ED7BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA2DD43B2269FB2900ED7BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA2DD43C2269FB2900ED7BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA2DD43F2269FB2900ED7BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2DD4422269FB2900ED7BE6 /* talents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = talents.xcdatamodel; sourceTree = "<group>"; };
 		DA2DD4442269FB2B00ED7BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +74,41 @@
 		DA2DD45B2269FB2B00ED7BE6 /* talentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2DD45F2269FB2B00ED7BE6 /* talentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = talentsUITests.m; sourceTree = "<group>"; };
 		DA2DD4612269FB2B00ED7BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2DD46F2269FBA000ED7BE6 /* XXPageTabItemLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageTabItemLable.m; sourceTree = "<group>"; };
+		DA2DD4702269FBA000ED7BE6 /* XXPageTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageTabView.m; sourceTree = "<group>"; };
+		DA2DD4712269FBA000ED7BE6 /* XXPageTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageTabView.h; sourceTree = "<group>"; };
+		DA2DD4722269FBA000ED7BE6 /* XXPageTabItemLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageTabItemLable.h; sourceTree = "<group>"; };
+		DA2DD4742269FBA000ED7BE6 /* UIImage+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LX.h"; sourceTree = "<group>"; };
+		DA2DD4752269FBA000ED7BE6 /* UIColor+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LX.m"; sourceTree = "<group>"; };
+		DA2DD4762269FBA000ED7BE6 /* UIImage+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LX.m"; sourceTree = "<group>"; };
+		DA2DD4772269FBA000ED7BE6 /* UIColor+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LX.h"; sourceTree = "<group>"; };
+		DA2DD47C2269FBA000ED7BE6 /* RCInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCInformationController.m; sourceTree = "<group>"; };
+		DA2DD47D2269FBA000ED7BE6 /* RCCourseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCourseController.m; sourceTree = "<group>"; };
+		DA2DD47E2269FBA000ED7BE6 /* RCFoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFoundController.h; sourceTree = "<group>"; };
+		DA2DD47F2269FBA000ED7BE6 /* RCInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCInformationController.h; sourceTree = "<group>"; };
+		DA2DD4802269FBA000ED7BE6 /* RCCourseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCourseController.h; sourceTree = "<group>"; };
+		DA2DD4812269FBA000ED7BE6 /* RCFoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFoundController.m; sourceTree = "<group>"; };
+		DA2DD4862269FBA000ED7BE6 /* RCMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMessageController.m; sourceTree = "<group>"; };
+		DA2DD4872269FBA000ED7BE6 /* RCMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMessageController.h; sourceTree = "<group>"; };
+		DA2DD48C2269FBA000ED7BE6 /* RCMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMyController.m; sourceTree = "<group>"; };
+		DA2DD48D2269FBA000ED7BE6 /* RCMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMyController.h; sourceTree = "<group>"; };
+		DA2DD48F2269FBA000ED7BE6 /* RCPassLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPassLoginController.h; sourceTree = "<group>"; };
+		DA2DD4902269FBA000ED7BE6 /* RCChangePassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCChangePassController.h; sourceTree = "<group>"; };
+		DA2DD4912269FBA000ED7BE6 /* RCLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLoginController.m; sourceTree = "<group>"; };
+		DA2DD4922269FBA000ED7BE6 /* RCRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRegisterController.h; sourceTree = "<group>"; };
+		DA2DD4942269FBA000ED7BE6 /* RCBoundIphoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCBoundIphoneController.h; sourceTree = "<group>"; };
+		DA2DD4952269FBA000ED7BE6 /* RCResetPasswController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCResetPasswController.h; sourceTree = "<group>"; };
+		DA2DD4962269FBA000ED7BE6 /* RCBoundIphoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCBoundIphoneController.m; sourceTree = "<group>"; };
+		DA2DD4972269FBA000ED7BE6 /* RCResetPasswController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCResetPasswController.m; sourceTree = "<group>"; };
+		DA2DD4982269FBA000ED7BE6 /* RCPassLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPassLoginController.m; sourceTree = "<group>"; };
+		DA2DD4992269FBA000ED7BE6 /* RCLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLoginController.h; sourceTree = "<group>"; };
+		DA2DD49A2269FBA000ED7BE6 /* RCChangePassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCChangePassController.m; sourceTree = "<group>"; };
+		DA2DD49C2269FBA000ED7BE6 /* RCRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRegisterController.m; sourceTree = "<group>"; };
+		DA2DD4A12269FBA000ED7BE6 /* RCMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMainController.h; sourceTree = "<group>"; };
+		DA2DD4A22269FBA000ED7BE6 /* RCMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMainController.m; sourceTree = "<group>"; };
+		DA2DD4A42269FBA000ED7BE6 /* RCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTabController.h; sourceTree = "<group>"; };
+		DA2DD4A52269FBA000ED7BE6 /* RCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTabController.m; sourceTree = "<group>"; };
+		DA2DD4B72269FBB100ED7BE6 /* RC_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RC_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BDA58749D871C9382BE657 /* libPods-talents.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B047A12785B7638A6ED5EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E03FE856448ABE98A7B17C9 /* Pods-talents.debug.xcconfig */,
+				725A46F21045D0EAD7AD345A /* Pods-talents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		271B818F8A3704EAFE3B9A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7C86FDA36D6BDDB16C5E886 /* libPods-talents.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA2DD42C2269FB2800ED7BE6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +161,8 @@
 				DA2DD4532269FB2B00ED7BE6 /* talentsTests */,
 				DA2DD45E2269FB2B00ED7BE6 /* talentsUITests */,
 				DA2DD4362269FB2800ED7BE6 /* Products */,
+				1B047A12785B7638A6ED5EAD /* Pods */,
+				271B818F8A3704EAFE3B9A7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +179,17 @@
 		DA2DD4372269FB2800ED7BE6 /* talents */ = {
 			isa = PBXGroup;
 			children = (
+				DA2DD4B72269FBB100ED7BE6 /* RC_Prefix.pch */,
+				DA2DD4732269FBA000ED7BE6 /* Category */,
+				DA2DD4782269FBA000ED7BE6 /* found */,
+				DA2DD49D2269FBA000ED7BE6 /* home */,
+				DA2DD46D2269FBA000ED7BE6 /* lib */,
+				DA2DD48E2269FBA000ED7BE6 /* login */,
+				DA2DD4822269FBA000ED7BE6 /* message */,
+				DA2DD4882269FBA000ED7BE6 /* my */,
+				DA2DD4A32269FBA000ED7BE6 /* tab */,
 				DA2DD4382269FB2800ED7BE6 /* AppDelegate.h */,
 				DA2DD4392269FB2800ED7BE6 /* AppDelegate.m */,
-				DA2DD43B2269FB2900ED7BE6 /* ViewController.h */,
-				DA2DD43C2269FB2900ED7BE6 /* ViewController.m */,
 				DA2DD43E2269FB2900ED7BE6 /* Main.storyboard */,
 				DA2DD4442269FB2B00ED7BE6 /* Assets.xcassets */,
 				DA2DD4462269FB2B00ED7BE6 /* LaunchScreen.storyboard */,
@@ -135,6 +218,218 @@
 			path = talentsUITests;
 			sourceTree = "<group>";
 		};
+		DA2DD46D2269FBA000ED7BE6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD46E2269FBA000ED7BE6 /* XXPageTab */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DA2DD46E2269FBA000ED7BE6 /* XXPageTab */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD46F2269FBA000ED7BE6 /* XXPageTabItemLable.m */,
+				DA2DD4702269FBA000ED7BE6 /* XXPageTabView.m */,
+				DA2DD4712269FBA000ED7BE6 /* XXPageTabView.h */,
+				DA2DD4722269FBA000ED7BE6 /* XXPageTabItemLable.h */,
+			);
+			path = XXPageTab;
+			sourceTree = "<group>";
+		};
+		DA2DD4732269FBA000ED7BE6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4742269FBA000ED7BE6 /* UIImage+LX.h */,
+				DA2DD4752269FBA000ED7BE6 /* UIColor+LX.m */,
+				DA2DD4762269FBA000ED7BE6 /* UIImage+LX.m */,
+				DA2DD4772269FBA000ED7BE6 /* UIColor+LX.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DA2DD4782269FBA000ED7BE6 /* found */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4792269FBA000ED7BE6 /* mode */,
+				DA2DD47A2269FBA000ED7BE6 /* view */,
+				DA2DD47B2269FBA000ED7BE6 /* control */,
+			);
+			path = found;
+			sourceTree = "<group>";
+		};
+		DA2DD4792269FBA000ED7BE6 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		DA2DD47A2269FBA000ED7BE6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DA2DD47B2269FBA000ED7BE6 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD47C2269FBA000ED7BE6 /* RCInformationController.m */,
+				DA2DD47D2269FBA000ED7BE6 /* RCCourseController.m */,
+				DA2DD47E2269FBA000ED7BE6 /* RCFoundController.h */,
+				DA2DD47F2269FBA000ED7BE6 /* RCInformationController.h */,
+				DA2DD4802269FBA000ED7BE6 /* RCCourseController.h */,
+				DA2DD4812269FBA000ED7BE6 /* RCFoundController.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		DA2DD4822269FBA000ED7BE6 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4832269FBA000ED7BE6 /* mode */,
+				DA2DD4842269FBA000ED7BE6 /* view */,
+				DA2DD4852269FBA000ED7BE6 /* control */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		DA2DD4832269FBA000ED7BE6 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		DA2DD4842269FBA000ED7BE6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DA2DD4852269FBA000ED7BE6 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4862269FBA000ED7BE6 /* RCMessageController.m */,
+				DA2DD4872269FBA000ED7BE6 /* RCMessageController.h */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		DA2DD4882269FBA000ED7BE6 /* my */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4892269FBA000ED7BE6 /* mode */,
+				DA2DD48A2269FBA000ED7BE6 /* view */,
+				DA2DD48B2269FBA000ED7BE6 /* control */,
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		DA2DD4892269FBA000ED7BE6 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		DA2DD48A2269FBA000ED7BE6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DA2DD48B2269FBA000ED7BE6 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD48C2269FBA000ED7BE6 /* RCMyController.m */,
+				DA2DD48D2269FBA000ED7BE6 /* RCMyController.h */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		DA2DD48E2269FBA000ED7BE6 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD48F2269FBA000ED7BE6 /* RCPassLoginController.h */,
+				DA2DD4902269FBA000ED7BE6 /* RCChangePassController.h */,
+				DA2DD4912269FBA000ED7BE6 /* RCLoginController.m */,
+				DA2DD4922269FBA000ED7BE6 /* RCRegisterController.h */,
+				DA2DD4932269FBA000ED7BE6 /* controls */,
+				DA2DD4982269FBA000ED7BE6 /* RCPassLoginController.m */,
+				DA2DD4992269FBA000ED7BE6 /* RCLoginController.h */,
+				DA2DD49A2269FBA000ED7BE6 /* RCChangePassController.m */,
+				DA2DD49B2269FBA000ED7BE6 /* views */,
+				DA2DD49C2269FBA000ED7BE6 /* RCRegisterController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		DA2DD4932269FBA000ED7BE6 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4942269FBA000ED7BE6 /* RCBoundIphoneController.h */,
+				DA2DD4952269FBA000ED7BE6 /* RCResetPasswController.h */,
+				DA2DD4962269FBA000ED7BE6 /* RCBoundIphoneController.m */,
+				DA2DD4972269FBA000ED7BE6 /* RCResetPasswController.m */,
+				DA26BB58226D5C3700A971FD /* RCAgainPassWordController.h */,
+				DA26BB59226D5C3700A971FD /* RCAgainPassWordController.m */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		DA2DD49B2269FBA000ED7BE6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DA2DD49D2269FBA000ED7BE6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD49E2269FBA000ED7BE6 /* mode */,
+				DA2DD49F2269FBA000ED7BE6 /* view */,
+				DA2DD4A02269FBA000ED7BE6 /* control */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		DA2DD49E2269FBA000ED7BE6 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		DA2DD49F2269FBA000ED7BE6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DA2DD4A02269FBA000ED7BE6 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4A12269FBA000ED7BE6 /* RCMainController.h */,
+				DA2DD4A22269FBA000ED7BE6 /* RCMainController.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		DA2DD4A32269FBA000ED7BE6 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD4A42269FBA000ED7BE6 /* RCTabController.h */,
+				DA2DD4A52269FBA000ED7BE6 /* RCTabController.m */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +437,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2DD4642269FB2B00ED7BE6 /* Build configuration list for PBXNativeTarget "talents" */;
 			buildPhases = (
+				63F456F3917D9ADEE304E95E /* [CP] Check Pods Manifest.lock */,
 				DA2DD4312269FB2800ED7BE6 /* Sources */,
 				DA2DD4322269FB2800ED7BE6 /* Frameworks */,
 				DA2DD4332269FB2800ED7BE6 /* Resources */,
@@ -260,15 +556,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63F456F3917D9ADEE304E95E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2DD4312269FB2800ED7BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2DD43D2269FB2900ED7BE6 /* ViewController.m in Sources */,
+				DA2DD4A92269FBA000ED7BE6 /* UIImage+LX.m in Sources */,
+				DA26BB5A226D5C3700A971FD /* RCAgainPassWordController.m in Sources */,
 				DA2DD43A2269FB2800ED7BE6 /* AppDelegate.m in Sources */,
 				DA2DD44B2269FB2B00ED7BE6 /* main.m in Sources */,
+				DA2DD4AA2269FBA000ED7BE6 /* RCInformationController.m in Sources */,
+				DA2DD4B62269FBA000ED7BE6 /* RCTabController.m in Sources */,
+				DA2DD4A72269FBA000ED7BE6 /* XXPageTabView.m in Sources */,
+				DA2DD4AB2269FBA000ED7BE6 /* RCCourseController.m in Sources */,
+				DA2DD4A82269FBA000ED7BE6 /* UIColor+LX.m in Sources */,
+				DA2DD4B52269FBA000ED7BE6 /* RCMainController.m in Sources */,
+				DA2DD4B12269FBA000ED7BE6 /* RCResetPasswController.m in Sources */,
+				DA2DD4A62269FBA000ED7BE6 /* XXPageTabItemLable.m in Sources */,
 				DA2DD4432269FB2900ED7BE6 /* talents.xcdatamodeld in Sources */,
+				DA2DD4AC2269FBA000ED7BE6 /* RCFoundController.m in Sources */,
+				DA2DD4B22269FBA000ED7BE6 /* RCPassLoginController.m in Sources */,
+				DA2DD4AE2269FBA000ED7BE6 /* RCMyController.m in Sources */,
+				DA2DD4AF2269FBA000ED7BE6 /* RCLoginController.m in Sources */,
+				DA2DD4B02269FBA000ED7BE6 /* RCBoundIphoneController.m in Sources */,
+				DA2DD4B42269FBA000ED7BE6 /* RCRegisterController.m in Sources */,
+				DA2DD4B32269FBA000ED7BE6 /* RCChangePassController.m in Sources */,
+				DA2DD4AD2269FBA000ED7BE6 /* RCMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,34 +775,44 @@
 		};
 		DA2DD4652269FB2B00ED7BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E03FE856448ABE98A7B17C9 /* Pods-talents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP785T3EEG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/liub/Desktop/test/talents/talents/RC_Prefix.pch;
 				INFOPLIST_FILE = talents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appleChat.liubing.talents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		DA2DD4662269FB2B00ED7BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725A46F21045D0EAD7AD345A /* Pods-talents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP785T3EEG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/liub/Desktop/test/talents/talents/RC_Prefix.pch;
 				INFOPLIST_FILE = talents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appleChat.liubing.talents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
